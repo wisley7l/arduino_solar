@@ -16,7 +16,7 @@ void loop()
  
   for(int i = 0; i < 300; i++)
   {
-    vetCorrente[i] = analogRead(A0);
+    vetCorrente[i] = analogRead(A2);
     delayMicroseconds(600);
   }  
  
