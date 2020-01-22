@@ -148,7 +148,7 @@ void loop(){
 void ativarSolar(){
   // releInv HIGH
   digitalWrite(releInv, HIGH);  
-  //delay(5000)
+  delay(10000);
   //releCont HIGH
   digitalWrite(releCont, HIGH); 
   ativaSolar = 1;
